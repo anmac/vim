@@ -1,25 +1,25 @@
-# VIM
+# Vim
 
-## Clone. Enjoy 😎
+## Clone. Enjoy
 A Vim configuration with only vimscript, no lua, no complicate settings.
 
 ```
 git clone https://github.com/anmac/vim.git ~/.config/nvim
 ```
 
-***NOTE:*** (Only works on Linux)
+**NOTE:** (Only works on Linux)
 
 ## Dependencies
 - [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 - Xsel or any tool to share clipboard system with vim.
 
-***NOTE:*** (I use [vim-plug](https://github.com/junegunn/vim-plug) as a plugin manager. Install is not necessary.)
+**NOTE:** (I use [vim-plug](https://github.com/junegunn/vim-plug) as a plugin manager. Install is not necessary.)
 
 ## Fonts (Optional, but highly recommended)
-- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts). Yeah, the repo it's calls Vim, but I use neovim 🤡. It's not your business.
 
 ## Customization
-Just add your sexy plugins into the `call plug#begin([PLUGIN_DIR])` section.
+Just add your sexy plugins into the `call plug#begin([PLUGIN_DIR])` section. Then, run `:PlugInstall`.
 
 ### Example
 
