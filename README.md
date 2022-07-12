@@ -10,13 +10,13 @@ git clone https://github.com/anmac/vim.git ~/.config/nvim
 **NOTE:** (Only works on Linux)
 
 ## Dependencies
-- [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+- [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim). Yeah, the repo it's calls Vim, but I use neovim 🤡. It's not your business.
 - Xsel or any tool to share clipboard system with vim.
 
 **NOTE:** (I use [vim-plug](https://github.com/junegunn/vim-plug) as a plugin manager. Install is not necessary.)
 
 ## Fonts (Optional, but highly recommended)
-- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts). Yeah, the repo it's calls Vim, but I use neovim 🤡. It's not your business.
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts).
 
 ## Customization
 Just add your sexy plugins into the `call plug#begin([PLUGIN_DIR])` section. Then, run `:PlugInstall`.
